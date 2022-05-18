@@ -1,0 +1,50 @@
+.footer{
+    display:flex;
+flex-direction: row;
+height:100%;
+background-color: #000000;
+color:white;
+font-family: poppins;
+}
+
+.f1{
+    background-color: #000000;
+    color:white;
+font-family: poppins;
+
+}
+.footerLeft{
+    display: flex;
+    flex-direction:column;
+
+}
+
+.icons{
+    display:flex;
+    flex-direction: row;
+   padding: 15px;
+}
+.links{
+    color:white;
+    font-family:poppins ;
+}
+a:link {
+    color:white;
+
+  }
+  a:visited {
+    color:white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:white;
+  }
+  
+  /* selected link */
+  a:active {
+    color:white;
+  }
+  .footerRight{
+      margin-left: 40%;
+  }
