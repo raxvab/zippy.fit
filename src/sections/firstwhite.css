@@ -1,0 +1,20 @@
+.white1{
+    height:25vh;
+   
+
+}
+
+.textwhite{
+    margin-top: 5%;
+    font-size: medium;
+    margin-left:50px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 500;
+
+
+}
+.mimage{
+    overflow: hidden;
+    margin-left: -40px;
+    display: flex;
+}

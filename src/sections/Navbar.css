@@ -1,0 +1,33 @@
+.navbar{
+    position:fixed;
+    top: 0px;
+display: flex;
+z-index: 4;
+width: 100%;
+flex-direction: column;
+padding: 10px;
+background-color: rgba(0, 0, 0, 0.122);
+align-items: center;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    height: 10vh;
+    transition: all 0.2s;
+    overflow: hidden;
+    text-align: center;
+    cursor:grab;
+    display: flex;
+    flex-direction: column;
+}
+.closed{
+    height: 0px;
+
+}
+.links a{
+    text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.footer-info{
+    background: hsla(25, 22%, 36%, 1);
+
+    width: 100%;
+    /* heigsht: 100vh; */
+color: white;
+display: flex;
+padding: 2vh;
+align-items: center;
+padding-top: 5vh;
+}
+
+.foot-para{
+
+}
+
+.foot-para span{
+    font-weight: 700;
+}
+@media (min-width:800px){
+.footer-info{
+    padding: 8vw;
+}
+.foot-para{
+    margin-left: 5vw;
+}
+}
+@media (max-width:800px){
+    .footer-info{
+        /* displ */
+        flex-direction: column;
+
+    }
+}
