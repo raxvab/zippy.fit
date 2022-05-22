@@ -1,8 +1,8 @@
 import React from 'react'
-import "./second.css"
+import "./fifth.css"
 function Third() {
   return (
-    <div className="d1 third">
+    <div className="d1 fifth" style={{background:"#D6184D"}}>
 <div className='text'>
   <span className='title'>
   run is
@@ -16,7 +16,7 @@ Make new friends or talk to old ones. Learn from their experiences or ask them a
 <button className='btn' href="#">Know More</button>
 
 </div>
-<div className='img'>
+<div className='img-fifth'>
 <img src="third.png" />
 </div>
      </div>
