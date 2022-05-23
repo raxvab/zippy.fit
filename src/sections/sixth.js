@@ -45,13 +45,15 @@ function Sixth() {
        </div>
 
         
-       <div className='img'>
-<img src="sixth.png" />
-</div>
+       
 </div>
 
 <div className="photo">
-  <img src="mask.png"></img>
+Download Zippy App on your iOS or Android phone
+Download Zippy App on your iOS or Android phone
+Download Zippy App on your iOS or Android phone
+  sdfsd
+  {/* <img src="mask.png"></img> */}
     </div>
     </>
   )
