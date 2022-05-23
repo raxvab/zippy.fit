@@ -12,6 +12,7 @@
      line-height: 90%;
         font-size: 4rem;
     }
+  
 .btn{
     font-family: 'Poppins', sans-serif !important;
 
@@ -45,8 +46,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        /* padding: 30px; */
-        
     }
     .img img{
        
@@ -57,6 +56,12 @@
         height: 90%;
     
     }
+    .title span{
+        color: black;
+    }
+
+
+
     .third{
        background-color: #D6184D;
     }

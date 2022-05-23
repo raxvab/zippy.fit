@@ -32,17 +32,13 @@
         width: 100%;
         overflow: hidden;
         height: 100%;
-        position: relative; 
+        /* position: relative;  */
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .img-fifth img{
-       
-       
-        position: absolute;
-        bottom: 0px;
-        height: 90%;
+        height: 70%;
         
        
     

@@ -11,7 +11,7 @@ function Fourth() {
             <span className='title'>
                 grind
             </span>
-            <span> to unlock progressive NFT elements such as Avatars, upperwears and bottomwears to participate in ZIPPY’s open and persistent world. </span>
+            <span style={{marginTop:'20px'}}> to unlock progressive NFT elements such as Avatars, upperwears and bottomwears to participate in ZIPPY’s open and persistent world. </span>
             </div>
            <img src='grind.png'  style={{ height:'450',marginTop:'2vh'}}></img>
            <button className='btn' href="#">Whitelist Me</button>
