@@ -5,8 +5,8 @@ function HeroSection() {
     return (
     <div className='hero-cont' style={{ backgroundImage: `url(${version?"./demo1.png":"demo4.png"})` }} onClick={()=>setversion(!version)}>
       <span className='hero-title'>
-      Revolutionizing 
-running for
+      revolutionizing <br/>
+running for<br/>
 {version?" indoor ":" outdoor "}
  runners.
       </span>
