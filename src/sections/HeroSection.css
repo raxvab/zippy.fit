@@ -9,6 +9,7 @@ color: white;
 justify-content: flex-end;
 flex-direction: column;
 }
+
 .hero-cont *{
 z-index: 4;
 
@@ -29,7 +30,9 @@ z-index: 2;
 .hero-title{
     width: 60%;
     font-weight: 700;
-font-size: 5rem;
+font-size: 4rem;
+line-height: 90%;
+margin-top: ;
 }
 .hero-cont span:nth-child(2){
     width: 50vw;

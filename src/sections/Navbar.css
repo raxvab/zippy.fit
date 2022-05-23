@@ -6,8 +6,9 @@ z-index: 4;
 width: 100%;
 flex-direction: column;
 padding: 10px;
-background-color: rgba(0, 0, 0, 0.122);
+background-color:#1e1229;
 align-items: center;
+z-index: 20;
 }
 .menu{
     display: flex;
@@ -16,7 +17,7 @@ align-items: center;
     justify-content: space-between;
 }
 .links{
-    height: 10vh;
+    height: 15vh;
     transition: all 0.2s;
     overflow: hidden;
     text-align: center;
@@ -30,4 +31,5 @@ align-items: center;
 }
 .links a{
     text-decoration: none;
+    color: white;
 }
