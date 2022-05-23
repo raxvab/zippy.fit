@@ -30,9 +30,15 @@ z-index: 2;
 .hero-title{
     width: 60%;
     font-weight: 700;
+/* <<<<<<< HEAD */
     line-height: 90%;
 /* margin-top: 10px; */
 font-size: 5rem;
+/* ======= */
+font-size: 4rem;
+line-height: 90%;
+/* margin-top: ; */
+/* >>>>>>> b0a89f3a549964a143fca14045238675e5356e7b */
 }
 .hero-cont span:nth-child(2){
     width: 50vw;
