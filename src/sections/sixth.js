@@ -27,7 +27,7 @@ function Sixth() {
           </span> 
 
          </div><div className='ph-child'>
-        <img height={50} src="nft.png"></img>
+        <img height={50} src="nftimage.png"></img>
         <span>
         Get NFT elements 
 (Lucky few get Airdrops)
