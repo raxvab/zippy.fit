@@ -15,6 +15,8 @@ z-index: 20;
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    margin-right: 5%;
+    size: 50%;
 }
 .links{
     height: 15vh;
@@ -32,4 +34,8 @@ z-index: 20;
 .links a{
     text-decoration: none;
     color: white;
+}
+.zippylogo{
+   size: 50%;
+    margin-left: 4vw;
 }

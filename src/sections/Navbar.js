@@ -6,7 +6,7 @@ function Navbar() {
     <div className='navbar' >
       <div className='menu'>
       <span>
-      <img src='logo.svg' className=''>
+      <img src='logo.svg' className='zippylogo'>
         </img>
       </span>
       <div className="" onClick={()=>setlinksopen(!linksopen)} >
