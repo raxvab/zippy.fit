@@ -20,21 +20,23 @@ function Sixth() {
           </span> 
 
          </div><div className='ph-child'>
-        <img height={50} src="mobile.png"></img>
+        <img height={50} src="octicon_sign.png"></img>
         <span>
-        Download Zippy App on your iOS or Android phone
+        Setup your account with easy crypto and fiat on ramps
+
           </span> 
 
          </div><div className='ph-child'>
-        <img height={50} src="mobile.png"></img>
+        <img height={50} src="nft.png"></img>
         <span>
-        Download Zippy App on your iOS or Android phone
+        Get NFT elements 
+(Lucky few get Airdrops)
           </span> 
 
          </div><div className='ph-child'>
-        <img height={50} src="mobile.png"></img>
+        <img height={50} src="tabler_run.png"></img>
         <span>
-        Download Zippy App on your iOS or Android phone
+        Run, have fun, meet friends and earn cool bucks (in this order)
           </span> 
 
          </div>
