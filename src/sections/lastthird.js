@@ -112,12 +112,12 @@ function Lastthird() {
                 </div>
                 <div className='stat-child'>
                 <div className='stat-info'>
-                        <span>1024</span>
-                        <span>white listed</span>
+                        <span>324</span>
+                        <span>on twitter</span>
                     </div>
                     <div className='stat-info'>
-                        <span>1024</span>
-                        <span>white listed</span>
+                        <span>562</span>
+                        <span>on discord</span>
                     </div>
                 </div>
                 <div className='stat-star'>

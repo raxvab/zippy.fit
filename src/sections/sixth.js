@@ -50,9 +50,9 @@ function Sixth() {
 </div>
 </div>
 
-<div className="photo">
+{/* <div className="photo">
   <img src="mask.png"></img>
-    </div>
+    </div> */}
     </>
   )
 }
