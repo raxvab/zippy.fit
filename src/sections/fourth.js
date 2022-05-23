@@ -13,7 +13,7 @@ function Fourth() {
             </span>
             <span> to unlock progressive NFT elements such as Avatars, upperwears and bottomwears to participate in ZIPPY’s open and persistent world. </span>
             </div>
-           <img src='grind.png'  style={{ height:'450',marginTop:'10vh'}}></img>
+           <img src='grind.png'  style={{ height:'450',marginTop:'2vh'}}></img>
            <button className='btn' href="#">Whitelist Me</button>
 
         </div>

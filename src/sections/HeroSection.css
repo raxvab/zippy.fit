@@ -9,7 +9,6 @@ color: white;
 justify-content: flex-end;
 flex-direction: column;
 }
-
 .hero-cont *{
 z-index: 4;
 
