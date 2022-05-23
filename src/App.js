@@ -21,8 +21,9 @@ function App() {
      <Navbar/>
       {/* <First/> */}
       <HeroSection/>
-      <Firstwhite/>
     <Second/>
+      <Firstwhite/>
+
     <Third/>
     <Fourth/>
     <Fifth/>
