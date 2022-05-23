@@ -77,7 +77,7 @@ function Footer() {
             </div>
 
             <div class="row">
-                INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh
+                ZIPPY Copyright © 2022 Zippy.fit - All rights reserved
             </div>
         </div>
 
