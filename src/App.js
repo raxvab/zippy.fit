@@ -12,7 +12,7 @@ import "./App.css";
 import Lastsecond from './sections/lastsecond';
 import Lastthird from './sections/lastthird';
 import Footer from './sections/footer';
-
+import Cards from './sections/Cards';
 import HeroSection from './sections/HeroSection';
 import Navbar from './sections/Navbar';
 function App() {
@@ -28,8 +28,10 @@ function App() {
     <Fourth/>
     <Fifth/>
     <Sixth/>
+    <Cards/>
     {/* <Seventh/> */}
  <Lastthird/>
+
     <Lastsecond />
     <Footer/>
     </div>

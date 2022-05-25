@@ -1,0 +1,81 @@
+.card-child{
+    min-width: 350px;
+    height: 600px;
+    background-color: white;
+/* position: absolute; */
+margin: 20px;
+color:black;
+z-index: 4;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+overflow: hidden;
+/* position: relative; */
+}
+.card-img{
+    height: 70%;
+    object-fit: cover;
+}
+.card-child:first-child{
+    /* background-color: pink; */
+    margin-left: 40vw;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+padding: 20px;
+}
+.profiles{
+display: flex;
+width: 100%;
+height: 40px;
+/* margin: 20px; */
+padding:10px 20px;
+
+/* align-items:stretch; */
+
+}
+.card{
+    color: white;
+    /* padding: 0px; */
+    background-color: black;
+  margin-left: 50%;
+  width: auto;
+  font-size: 0.9rem;
+
+}
+
+.card-profile{
+    margin-left: -20px;
+
+}
+.card-profile img{
+    height: 40px;
+    width: 40px;
+    border: 2px solid pink;
+    border-radius: 100%;   
+}
+
+.card-info span:nth-child(2){
+    /* font-weight: 600; */
+    font-size: 0.8rem;
+    line-height: 95%;
+}
+.card-info span:nth-child(1){
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.cards{
+
+    overflow-x: scroll;
+    display: flex;margin-top: 20vh;
+    /* position: absolute; */
+    /* flex-direction: r; */
+}
+.card-title{
+    opacity: 0.5;
+    position: absolute;
+    margin: 5vw;
+    /* z-index: 2; */
+    font-size: 5rem;
+}

@@ -5,12 +5,9 @@ function Navbar() {
   return (
     <div className='navbar' >
       <div className='menu'>
-      <span>
-      <img src='logo.svg' className='zippylogo'>
-        </img>
-      </span>
-      <div className="" onClick={()=>setlinksopen(!linksopen)} >
-        <img src='menu.svg'>
+      <img src='logo.svg' className='zippylogo'></img>
+      <div className="bread" onClick={()=>setlinksopen(!linksopen)} >
+        <img height={30} src='menu.svg'>
         </img>
       </div>
       </div>
