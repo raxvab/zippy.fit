@@ -16,7 +16,7 @@
 .btn{
     font-family: 'Poppins', sans-serif !important;
 
-    width: 200px;
+    width: 230px;
     padding: 10px;
     outline: none;
     font-weight: 600;
@@ -24,6 +24,11 @@
     margin: 10px;
     border-radius: 100px;
     border: none;
+}
+.dev{
+    color: #D6184D;
+    margin-top:20px;
+    text-transform: uppercase;
 }
     .text{
         width: 80%;
@@ -56,9 +61,7 @@
         height: 90%;
     
     }
-    .title span{
-        color: black;
-    }
+    
 
 
 

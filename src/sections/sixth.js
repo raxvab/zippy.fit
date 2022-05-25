@@ -1,59 +1,96 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./sixth.css";
 function Sixth() {
+  const [indoor, setindoor] = useState(true)
+  const inorout = indoor ? (<>
+   <div className='ph-child'>
+            <img height={50} src="mobile.png"></img>
+            <span>
+              Download Zippy App on your iOS or Android phone
+            </span>
+
+          </div>
+          <div className='ph-child'>
+            <img height={50} src="octicon_sign.png"></img>
+            <span>
+              Setup your account with easy crypto and fiat on ramps
+
+            </span>
+
+          </div>
+          <div className='ph-child'>
+            <img height={50} src="nftimage.png"></img>
+            <span>
+              Get NFT elements
+              (Lucky few get Airdrops)
+            </span>
+
+          </div>
+          <div className='ph-child'>
+            <img height={50} src="tabler_run.png"></img>
+            <span>
+              Run, have fun, meet friends and earn cool bucks (in this order)
+            </span>
+
+          </div>
+          </>) : (<>
+   <div className='ph-child'>
+            <img height={50} src="mobile.png"></img>
+            <span>
+              Download Zippy App on your iOS or Android phone
+            </span>
+
+          </div>
+          <div className='ph-child'>
+            <img height={50} src="octicon_sign.png"></img>
+            <span>
+              Setup your account with easy crypto and fiat on ramps
+
+            </span>
+
+          </div>
+        
+          <div className='ph-child'>
+            <img height={50} src="tabler_run.png"></img>
+            <span>
+              Run, have fun, meet friends and earn cool bucks (in this order)
+            </span>
+
+          </div>
+          </>);
   return (
     <>
-    <div className='main'>
-    
-           How it works
-       <div className='.btn-cont'>
-         
-<button className='btn' href="#">Outdoor running</button>
-<button className='btn' id='outline' href="#">Indoor running</button>
-       </div>
-       <div className='ph'>
-         
-         <div className='ph-child'>
-        <img height={50} src="mobile.png"></img>
-        <span>
-        Download Zippy App on your iOS or Android phone
-          </span> 
+      <div className='main'>
 
-         </div><div className='ph-child'>
-        <img height={50} src="octicon_sign.png"></img>
-        <span>
-        Setup your account with easy crypto and fiat on ramps
+        How it works
+        <div className='.btn-cont'>
 
-          </span> 
+          <button className='btn' id={indoor ? "" : "outline"} onClick={() => setindoor(true)} href="#">Outdoor running</button>
+          <button className='btn' id={!indoor ? "" : "outline"} onClick={() => setindoor(false)} href="#">Indoor running</button>
+        </div>
+        <div className='ph'>
 
-         </div><div className='ph-child'>
-        <img height={50} src="nftimage.png"></img>
-        <span>
-        Get NFT elements 
-(Lucky few get Airdrops)
-          </span> 
+          {inorout}
 
-         </div><div className='ph-child'>
-        <img height={50} src="tabler_run.png"></img>
-        <span>
-        Run, have fun, meet friends and earn cool bucks (in this order)
-          </span> 
+          <img style={{ width: '80vw' }} src={indoor?"sixth.png":"devices.png"}></img>
 
-         </div>
+{!indoor?(<>
+<span className='title' style={{textAlign:'center',textTransform:'uppercase'}}>
+<br/>Zippy gets you running on all devices
+</span>
+<button className='btn dev'> Refer a friend</button>
+</>):""}
+        </div>
 
-         <img style={{width:'80vw'}} src="sixth.png"></img>
 
-       </div>
+      </div>
+      <div>
 
-        
-</div>
-<div>
+      </div>
+      <div className="photo">
 
-</div>
-<div className="photo">
 
- 
-    </div>
+      </div>
     </>
   )
 }
