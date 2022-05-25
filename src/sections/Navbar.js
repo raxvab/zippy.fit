@@ -15,9 +15,9 @@ function Navbar() {
       </div>
       </div>
       <div className={`links ${linksopen?"closed":""}`}>
-        <a href='#'>Home</a>
-        <a href='#'>About</a>
-        <a href='#'>Contact</a>
+        <a href='#' onClick={()=>setlinksopen(!linksopen)}>Home</a>
+        <a href='#' onClick={()=>setlinksopen(!linksopen)}>About</a>
+        <a href='# ' onClick={()=>setlinksopen(!linksopen)}>Contact</a>
 
       </div>
 

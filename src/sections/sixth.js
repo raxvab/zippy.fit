@@ -41,19 +41,18 @@ function Sixth() {
 
          </div>
 
+         <img style={{width:'80vw'}} src="sixth.png"></img>
 
        </div>
 
         
-       
 </div>
+<div>
 
+</div>
 <div className="photo">
-Download Zippy App on your iOS or Android phone
-Download Zippy App on your iOS or Android phone
-Download Zippy App on your iOS or Android phone
-  sdfsd
-  {/* <img src="mask.png"></img> */}
+
+ 
     </div>
     </>
   )
