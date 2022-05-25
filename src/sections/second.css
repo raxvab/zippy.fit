@@ -4,8 +4,9 @@
     color: white;
     width: 100%;
     display: flex;
+    height:100vh;
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
     }
     .title{
         font-weight: 600;
@@ -102,7 +103,8 @@ width: 50vw;
         color: white;
         font-size: 1rem;
         background-color: #0086FB;
-margin-bottom: 10%;
+margin-bottom: 5%;
+margin-top: 2vh;
     }
     
    

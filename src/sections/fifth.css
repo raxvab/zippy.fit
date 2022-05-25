@@ -6,7 +6,7 @@
 }
 .d2{
     background-color:  #D6184D;
-    ;
+    
     color: white;
     width: 100%;
     display: flex;
@@ -57,6 +57,8 @@
     }
     .fifth{
         background-color: #0086FB;
+        height:100vh;
+        /* padding:35px; */
     }
     @media  only screen and (max-width: 600px) {
         .d2
