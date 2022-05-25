@@ -5,7 +5,7 @@ display: flex;
 z-index: 4;
 width: 100%;
 flex-direction: column;
-padding: 10px;
+padding:0px 10px;
 background-color:#1e1229;
 align-items: center;
 z-index: 20;
@@ -19,13 +19,16 @@ z-index: 20;
     size: 50%;
 }
 .links{
-    height: 15vh;
+    height: 10vh;
     transition: all 0.2s;
     overflow: hidden;
     text-align: center;
     cursor:grab;
     display: flex;
     flex-direction: column;
+}
+.bread{
+    display: flex;
 }
 .closed{
     height: 0px;
@@ -36,6 +39,8 @@ z-index: 20;
     color: white;
 }
 .zippylogo{
-   size: 50%;
+   /* size: 50%;
+    */
+   height: 5vh;
     margin-left: 4vw;
 }
