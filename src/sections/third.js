@@ -17,7 +17,7 @@ Make new friends or talk to old ones. Learn from their experiences or ask them a
 
 </div>
 <div className='img-fifth'>
-<img src="third.png" />
+<img src="third.png"/>
 </div>
      </div>
 );
