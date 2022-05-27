@@ -13,7 +13,8 @@
     font-family: 'Poppins', sans-serif;
     height: 100px;
     }
-   
+ 
+
     @media  only screen and (max-width: 600px) {
         .d2
         {
