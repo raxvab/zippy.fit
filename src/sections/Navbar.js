@@ -12,9 +12,13 @@ function Navbar() {
       </div>
       </div>
       <div className={`links ${linksopen?"closed":""}`}>
-        <a href='#' onClick={()=>setlinksopen(!linksopen)}>Home</a>
-        <a href='#' onClick={()=>setlinksopen(!linksopen)}>About</a>
-        <a href='# ' onClick={()=>setlinksopen(!linksopen)}>Contact</a>
+        <a href='#' onClick={()=>setlinksopen(!linksopen)}>How it works</a>
+        <a href='#' onClick={()=>setlinksopen(!linksopen)}>About Us</a>
+        <a href='#' onClick={()=>setlinksopen(!linksopen)}>Contact Us</a>
+        <a href='#' onClick={()=>setlinksopen(!linksopen)}>WhiteList Me</a>
+        
+        <a href='#' onClick={()=>setlinksopen(!linksopen)}>FAQs</a>
+        <a href='# ' onClick={()=>setlinksopen(!linksopen)}>WhitePaper</a>
 
       </div>
 

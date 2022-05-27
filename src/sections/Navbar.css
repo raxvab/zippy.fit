@@ -20,13 +20,14 @@ z-index: 20;
     
 }
 .links{
-    height: 10vh;
+    height: 22vh;
     transition: all 0.2s;
     overflow: hidden;
     text-align: center;
     cursor:grab;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 .bread{
     display: flex;
@@ -38,6 +39,11 @@ z-index: 20;
 .links a{
     text-decoration: none;
     color: white;
+    /* padding: 4px; */
+    /* margin: 4px; */
+}
+.links a:hover{
+  opacity: 0.8;
 }
 .zippylogo{
    /* size: 50%;
