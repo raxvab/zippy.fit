@@ -2,7 +2,7 @@ import React from 'react'
 import "./Cards.css"
 function Cards() {
   return (
-    <div className='d1' style={{ color: 'white' }}>
+    <div className='d1 cardcontainer' style={{ color: 'white' }}>
       <span className='title card-title' >
         enlist your<br /> running clubs
       </span>

@@ -92,3 +92,6 @@ padding:10px 20px;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+  .cardcontainer{
+      min-height: 1080px;
+  }
