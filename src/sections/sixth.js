@@ -76,10 +76,15 @@ Don't worry, we got you covered
           <img style={{ width: '80vw' }} src={indoor?"sixth.png":"devices.png"}></img>
 
 {!indoor?(<>
-<span className='title' style={{textAlign:'center',textTransform:'lowercase'}}>
+
+<div className='title' style={{textAlign:'center',textTransform:'lowercase',width:"100%"}}>
 <br/>Zippy gets you running on all devices
-</span>
+</div>
+<br/>
+<div>
 <button className='btn dev'> Refer a friend</button>
+
+</div>
 </>):""}
         </div>
 
