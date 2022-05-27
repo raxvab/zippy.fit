@@ -75,7 +75,7 @@ function Sixth() {
           <img style={{ width: '80vw' }} src={indoor?"sixth.png":"devices.png"}></img>
 
 {!indoor?(<>
-<span className='title' style={{textAlign:'center',textTransform:'uppercase'}}>
+<span className='title' style={{textAlign:'center',textTransform:'lowercase'}}>
 <br/>Zippy gets you running on all devices
 </span>
 <button className='btn dev'> Refer a friend</button>

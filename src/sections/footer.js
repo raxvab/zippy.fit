@@ -64,6 +64,9 @@ function Footer() {
                 <a href="#"><i class="fa fa-instagram"></i></a>
                 <a href="#"><i class="fa fa-youtube"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+
+                <a href="#"><i class="fa fa-brands fa-discord"></i></a>
             </div>
 
             <div class="row">
@@ -72,7 +75,8 @@ function Footer() {
                     <li><a href="#">Our Services</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Career</a></li>
+                    <li><a href="#"> f392 Career</a></li>
+                    
                 </ul>
             </div>
 
