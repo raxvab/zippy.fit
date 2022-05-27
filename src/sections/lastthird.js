@@ -15,26 +15,28 @@ function Lastthird() {
     return (
         <>
             <div className='stats'>
+
+               <h4 style={{marginTop:"5%",marginLeft:"10%"}}>We've completed</h4> 
                 <div className='stat-child'>
                 <div className='stat-info'>
-                        <span>1024</span>
+                        <span >1024</span>
                         <span>white
-                        listed</span>
+                        <br/>listed</span>
                     </div>
                     <div className='stat-info'>
                         <span>1.2k</span>
                     
-                        <span>downloads</span>
+                        <span>down<br/>loads</span>
                     </div>
                 </div>
                 <div className='stat-child'>
                 <div className='stat-info'>
-                        <span>1024</span>
-                        <span>white listed</span>
+                        <span>324</span>
+                        <span>on <br/>twitter</span>
                     </div>
                     <div className='stat-info'>
-                        <span>1024</span>
-                        <span>white listed</span>
+                        <span>562</span>
+                        <span>on <br/>discord</span>
                     </div>
                 </div>
                 <div className='stat-star'>

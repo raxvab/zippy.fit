@@ -35,25 +35,26 @@ function Sixth() {
           </div>
           </>) : (<>
    <div className='ph-child'>
-            <img height={50} src="mobile.png"></img>
+            <img height={50} src="treadmill_icon.png"></img>
             <span>
-              Download Zippy App on your iOS or Android phone
+            Step on any treadmill.
             </span>
 
           </div>
           <div className='ph-child'>
-            <img height={50} src="octicon_sign.png"></img>
+            <img height={50} src="bluetooth_icon.png"></img>
             <span>
-              Setup your account with easy crypto and fiat on ramps
-
+              Treadmill not Bluetooth enabled.
+Don't have compatible hardware.
+Don't worry, we got you covered
             </span>
 
           </div>
         
           <div className='ph-child'>
-            <img height={50} src="tabler_run.png"></img>
+            <img height={50} src="mobile.png"></img>
             <span>
-              Run, have fun, meet friends and earn cool bucks (in this order)
+              Fire up Zippy on any iOS or Android device and stream the app on your Smart TV, Laptop, iPad, Andoid Tablet or Smartphone.
             </span>
 
           </div>
