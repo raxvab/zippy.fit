@@ -25,6 +25,12 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
 padding: 20px;
+
+}
+.new{
+    align-items: center;
+  
+
 }
 .profiles{
 display: flex;
@@ -65,6 +71,13 @@ padding:10px 20px;
 .card-info span:nth-child(1){
     font-weight: 700;
     font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+#slide{
+    position: absolute;
+    left: 65vw;
+    margin-top: 70px;
+    /* top: 3vh; */
 }
 .cards{
 
@@ -72,7 +85,7 @@ padding:10px 20px;
     overflow-y: none;
     display: flex;
     height: 700px;
-    margin-top: 20vh;
+    margin-top: 32vh;
 
 }
 .card-title{
@@ -86,12 +99,28 @@ padding:10px 20px;
 .cards::-webkit-scrollbar {
     display: none;
   }
+  .new-card{
+      display: flex;
+      align-items: center;
+      text-align: center;
+    
+  }
   
   /* Hide scrollbar for IE, Edge and Firefox */
   .cards {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+  .new-img{
+      
+      width: 300px;
+     
+      object-fit: unset;
+  }
   .cardcontainer{
-      min-height: 800px;
+      min-height: 950px;
+  }
+  .add{
+    background-color: black;
+    color: white;
   }

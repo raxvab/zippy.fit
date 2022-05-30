@@ -9,17 +9,19 @@ import Sixth from './sections/sixth';
 import Seventh from './sections/seventh';
 import Firstwhite from './sections/firstwhite';
 import "./App.css";
-import Lastsecond from './sections/lastsecond';
+import Lastsecond from './sections/About';
 import Lastthird from './sections/lastthird';
 import Footer from './sections/footer';
 import Cards from './sections/Cards';
 import HeroSection from './sections/HeroSection';
 import Navbar from './sections/Navbar';
+import WhiteList from './sections/WhiteList';
 function App() {
   return (
     <div className="App">
      <Navbar/>
       {/* <First/> */}
+      <WhiteList/>
       <HeroSection/>
     <Second/>
       <Firstwhite/>

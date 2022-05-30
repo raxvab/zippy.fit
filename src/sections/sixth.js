@@ -61,7 +61,7 @@ Don't worry, we got you covered
           </>);
   return (
     <>
-      <div className='main'>
+      <div className='main' id="howitworks">
 
         How it works
         <div className='.btn-cont'>

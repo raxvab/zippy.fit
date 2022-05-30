@@ -1,0 +1,78 @@
+.whitelist-cont{
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.whitelist-cont div{
+    width: 100%;
+    display: flex;
+    
+    /* padding: 20px; */
+}
+.whitelist-info{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vw;
+}
+.whitelist-img{
+    align-items: center;
+justify-content: center;
+}
+.whitelist-info form{
+outline: none;
+margin:10px 0px;
+height: 6vh;
+z-index: 1;
+
+overflow: hidden;
+/* padding: 0px; */
+border-radius:50px;
+border: 2px solid rgb(202, 202, 202);
+}.whitelist-info button{
+    width: 40%;
+ font-weight: 700;
+ font-size: 1.2rem;
+    position: relative;
+    /* top: -1px; */
+    background-color: #0086FB;
+    color: white;
+    outline: none;
+    border: none;
+    height: 6vh;
+z-index: 2;
+}
+
+.whitelist-info input{
+    height: 6vh;
+
+    outline: none;
+    border: none;
+    padding: 20px;
+width: 60%;
+}
+.whitelist-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100px;
+}
+.icon-child img{
+   height: 50px;
+}
+@media  only screen and (max-width: 600px) 
+{.whitelist-cont{
+    flex-direction: column;
+}
+.whitelist-img img{
+height: 50%;
+}
+
+}

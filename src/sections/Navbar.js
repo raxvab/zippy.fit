@@ -12,8 +12,18 @@ function Navbar() {
       </div>
       </div>
       <div className={`links ${linksopen?"closed":""}`}>
-        <a href='#' onClick={()=>setlinksopen(!linksopen)}>How it works</a>
-        <a href='#' onClick={()=>setlinksopen(!linksopen)}>About Us</a>
+        <a  onClick={(e)=>{setlinksopen(!linksopen)
+      //  e.preventDefault();
+       document
+    .querySelector("#howitworks")
+    .scrollIntoView({ behavior: "smooth" });
+        
+        }}>How it works</a>
+        <a  onClick={()=>{setlinksopen(!linksopen)
+        document.querySelector("#about")
+        .scrollIntoView({ behavior: "smooth" });
+        
+        }}>About Us</a>
         <a href='#' onClick={()=>setlinksopen(!linksopen)}>Contact Us</a>
         <a href='#' onClick={()=>setlinksopen(!linksopen)}>WhiteList Me</a>
         
